@@ -1,0 +1,14 @@
+﻿/*My own CSS classes that I use*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+label {
+    font-weight: bold;
+    font-size: 15px;
+    color: green;
+}
+
+p.output {
+    font-weight: 800;
+}
