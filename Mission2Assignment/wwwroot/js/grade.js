@@ -1,5 +1,5 @@
-﻿//Javascript program that occurs when the calculate grade button is pressed. Takes outputs from the html form and calculates the final grade. It then
-// outputs that final grade along with a brief message to a paragraph tag.
+﻿//Javascript program that occurs when the calculate grade button is pressed. Takes outputs from the html form and calculates the final grade.
+//It then outputs that final grade along with a brief message to a paragraph tag.
 $("#calc").click(function () {
     var output = "";
     var ass = (parseInt($("#ass").val()) * .55);
