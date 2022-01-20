@@ -8,6 +8,7 @@ namespace Mission2Assignment.Models
 {
     public class GradeCalcModel
     {
+        //get and set all of the variables from the form, as well as making them required within a certain range
         [Required]
         [Range(0, 100, ErrorMessage = "Please enter a value between 0 & 100 for your Assignment Grade")]
         public double assignment { get; set; }

@@ -16,7 +16,8 @@
         <a asp-controller="Blah" asp-action="GradeCalc">Grade Calculator</a>
     </nav>
     <header>
-        <h1>@ViewData["Header"]</h1>
+        @* Header through razor code *@
+        <h1>@ViewData["Header"]</h1> 
     </header>
     <div>
         @RenderBody()

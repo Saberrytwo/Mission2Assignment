@@ -15,6 +15,7 @@ namespace Mission2Assignment.Controllers
 
             return View();
         }
+        //Get and Post the grade calc form 
         [HttpGet]
         public IActionResult GradeCalc()
         {
